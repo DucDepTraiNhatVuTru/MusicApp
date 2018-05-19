@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.SignInActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nghoe Nhoạc!"
+        android:textSize="49dp"
+        android:textStyle="bold|italic"
+        android:textColor="#E8D3E3"
+        android:padding="30dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtSignInEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:background="#ffffff"
+            android:hint="Email"
+            android:padding="8dp"
+            android:textColorHint="#C9B5D4"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtSignInPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:background="#ffffff"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColorHint="#C9B5D4"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:background="#C9B5D4"
+            android:padding="8dp"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="#64004B" />
+
+        <TextView
+            android:id="@+id/txtvSignInCanhBao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ECECEC"/>
+        <TextView
+            android:id="@+id/txtvSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Bạn chưa có tài khoản?"
+            android:textColor="#ffffff"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

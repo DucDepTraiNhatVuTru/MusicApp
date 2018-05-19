@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edtSignUpEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:hint="email"
+            android:padding="8dp"
+            android:layout_marginVertical="3dp"
+            android:textColorHint="#C9B5D4"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/edtSignUpName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:hint="name"
+            android:padding="8dp"
+            android:layout_marginVertical="3dp"
+            android:textColorHint="#C9B5D4"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/edtSignUpPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:hint="password"
+            android:padding="8dp"
+            android:layout_marginVertical="3dp"
+            android:inputType="textPassword"
+            android:textColorHint="#C9B5D4"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/edtSignUpConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:hint="confirm password"
+            android:padding="8dp"
+            android:layout_marginVertical="3dp"
+            android:inputType="textPassword"
+            android:textColorHint="#C9B5D4"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="3dp"
+            android:background="#C9B5D4"
+            android:padding="8dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="#64004B" />
+        <TextView
+            android:id="@+id/txtvCanhBao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ECECEC"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtvBackToSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đến trang Đăng nhập"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:allowUndo="true"/>
+
+</LinearLayout>
